@@ -1,0 +1,45 @@
+html, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+/* FULL WIDTH - spans viewport */
+.container-fluid {
+  margin: 8px 0;
+  padding: 20px;
+}
+
+.navbar {
+  margin: 10px;
+  padding: 12px;
+}
+
+.navbar a {
+  padding: 30px;
+  text-transform: uppercase;
+  color: #961f2f;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: #3d1f2f;
+}
+
+#tagline {
+  padding: 20px 24px 4px 24px;
+}
+
+.row {
+  padding: 4px 28px;
+  width: inherit;
+}
+
+#homepage-canvas {
+  border: 1px solid #d3d3d3;
+  width: inherit;
+}
