@@ -1,3 +1,15 @@
-/* .container {
-    border: 1px solid black;
-} */
+.sidebar {
+    border: 1px solid rgb(12, 119, 168);
+}
+
+.main {
+    border:1px solid rgb(226, 162, 43);
+}
+
+.row {
+    border: .5px dashed gray;
+}
+
+.row-main {
+    border: none;
+}
