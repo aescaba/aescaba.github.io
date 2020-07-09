@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { render } from '@testing-library/react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSmileBeam } from '@fortawesome/free-regular-svg-icons'
+
 class Home extends React.Component {
     constructor(props) {
         super(props);
@@ -9,26 +12,16 @@ class Home extends React.Component {
 
     render() {
         return (
-        <div className="container">
-        <h1>Hello!</h1>
-        <p>
-            I'm Amanda&mdash;a designer, developer, &amp; artist.
-        </p>
-        </div>
+            <div className="home">
+                <div className="row">
+                    <h1>Hello! <FontAwesomeIcon icon={faSmileBeam} /></h1>
+                </div>
+                <div className="row">
+                    <p>I'm Amanda&mdash;a designer, developer, &amp; artist.</p>
+                </div>
+            </div>
         )
     }
 }
 
 export default Home
-
-// export default function Home() {
-//   return (
-//     <div className="container">
-//       <h1>Home Page</h1>
-//       <p>
-//           hello
-//         {/* <Link to="/taniarascia">taniarascia</Link> on GitHub. */}
-//       </p>
-//     </div>
-//   )
-// }
