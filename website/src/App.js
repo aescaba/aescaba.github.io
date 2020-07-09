@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 import { Route, Switch } from 'react-router-dom'
-// We will create these two pages in a moment
+
+import Sidebar from './Sidebar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
