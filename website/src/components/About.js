@@ -11,8 +11,7 @@ class About extends React.Component {
         <div className="container">
         <h1>About Me</h1>
         <p>
-            hello
-            {/* <Link to="/taniarascia">taniarascia</Link> on GitHub. */}
+            this is the about me page
         </p>
         </div>
         )

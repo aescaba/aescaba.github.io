@@ -11,8 +11,7 @@ class Projects extends React.Component {
         <div className="container">
         <h1>Projects</h1>
         <p>
-            hello
-            {/* <Link to="/taniarascia">taniarascia</Link> on GitHub. */}
+            the projects will go here
         </p>
         </div>
         )

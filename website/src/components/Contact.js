@@ -11,8 +11,7 @@ class Contact extends React.Component {
         <div className="container">
         <h1>Contact</h1>
         <p>
-            hello
-            {/* <Link to="/taniarascia">taniarascia</Link> on GitHub. */}
+            do not contact me xx
         </p>
         </div>
         )

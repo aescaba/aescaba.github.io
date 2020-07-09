@@ -12,8 +12,7 @@ class Home extends React.Component {
         <div className="container">
         <h1>Home Page</h1>
         <p>
-            hello
-            {/* <Link to="/taniarascia">taniarascia</Link> on GitHub. */}
+            hello this is the homepage
         </p>
         </div>
         )
