@@ -4,11 +4,8 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import Sidebar from './Sidebar'
-import Home from './components/Home'
-import About from './components/About'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Sidebar from './containers/Sidebar'
+import Main from './containers/Main'
 
 
 export default class App extends React.Component {
@@ -16,10 +13,11 @@ export default class App extends React.Component {
     return (
       <Router>
       <Sidebar />
+      <Main />
         {/* <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route exact path="/Projects" component={Projects} />
-        <Route path="/Contact" component={Contact} /> */}
+    <Route path="/Contact" component={Contact} /> */}
       </Router>
     )
   

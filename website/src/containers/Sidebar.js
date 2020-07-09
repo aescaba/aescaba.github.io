@@ -3,10 +3,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
 
-import Home from './components/Home'
-import About from './components/About'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Home from './../components/Home'
+import About from './../components/About'
+import Projects from './../components/Projects'
+import Contact from './../components/Contact'
 
 export default class Sidebar extends React.Component {
     render() {
