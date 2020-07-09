@@ -11,15 +11,12 @@ import Contact from './../components/Contact'
 export default class Sidebar extends React.Component {
     render() {
         return (
-            <Router>
-                <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
-                <Route exact path="/Projects" component={Projects} />
-                <Route path="/Contact" component={Contact} />
+            <div className="sidebar">
                 <Link to="/">home</Link><br />
                 <Link to="/about">about</Link><br />
                 <Link to="/projects">projects</Link><br />
-            </Router>
+                <Link to="/contact">contact</Link>
+            </div>
 
             //     <nav className="col-md-2 sidebar">
             //     <div className="sidebar-sticky">

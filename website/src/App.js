@@ -2,11 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 import Sidebar from './containers/Sidebar'
 import Main from './containers/Main'
-
 
 export default class App extends React.Component {
   render() {
@@ -14,10 +13,6 @@ export default class App extends React.Component {
       <Router>
       <Sidebar />
       <Main />
-        {/* <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route exact path="/Projects" component={Projects} />
-    <Route path="/Contact" component={Contact} /> */}
       </Router>
     )
   
