@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './../css/About.css'
 
-import Headshot from './../assets/headshot.jpg'
+import Headshot from './../assets/headshot-resized.jpg'
 
 class About extends React.Component {
     constructor(props) {
@@ -21,7 +22,7 @@ class About extends React.Component {
                         <p>I'm currently seeking job opportunities in New York City!</p>
                     </div>
                     <div className="about-img-container col">
-                        <img src={Headshot} class="about-img img-fluid" alt="Insert image description here" />
+                        <img src={Headshot} className="about-img img-fluid" alt="Insert image description here" />
                     </div>
                 </div>
             </div>
