@@ -10,9 +10,9 @@ class Home extends React.Component {
     render() {
         return (
         <div className="container">
-        <h1>Home Page</h1>
+        <h1>hello!</h1>
         <p>
-            hello this is the homepage
+            I'm Amanda&mdash;a designer, developer, &amp; artist.
         </p>
         </div>
         )

@@ -20,9 +20,6 @@ class Main extends React.Component {
                 <Route exact path="/projects" component={Projects} />
                 <Route path="/contact" component={Contact} />
             </div>
-            // <div className="container">
-            // <h1>the main container</h1>
-            // </div>
         )
     }
 }
