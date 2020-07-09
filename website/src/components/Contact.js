@@ -23,7 +23,7 @@ class Contact extends React.Component {
                     </li>
                     <li>
                         <FontAwesomeIcon icon={faLinkedin} />
-                        Email me at <a href="mailto:amandaescaba@gmail.com">amandaescaba@gmail.com</a>
+                        Connect with me on <a href="https://www.linkedin.com/in/aescaba/">LinkedIn</a>
                     </li>
                 </ul>
             </div >
