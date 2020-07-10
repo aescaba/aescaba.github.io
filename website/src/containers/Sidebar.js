@@ -3,6 +3,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 
+import Resume from './../assets/resume_0517.pdf'
+
 import './../css/Sidebar.css'
 
 export default class Sidebar extends React.Component {
@@ -14,6 +16,7 @@ export default class Sidebar extends React.Component {
                         <li className="nav-item"><Link to="/">home</Link></li>
                         <li className="nav-item"><Link to="/about">about</Link></li>
                         <li className="nav-item"><Link to="/projects">projects</Link></li>
+                        <li className="nav-item"><a href={Resume} target="_blank">resume</a></li>
                         <li className="nav-item"><Link to="/contact">contact</Link></li>
                     </ul>
                 </div>
