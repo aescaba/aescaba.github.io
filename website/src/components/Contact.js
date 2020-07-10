@@ -7,39 +7,40 @@ import './../css/Contact.css'
 
 
 
-class Contact extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+// class Contact extends React.Component {
+//     constructor(props) {
+//         super(props);
+//     }
 
 
-    render() {
-        return (
-            <div className="contact">
-                <div className="row">
-                    <h2 className="heading">Contact</h2>
-                </div>
-                <div className="row">
-                    <ul className="contact-list">
-                        <li className="contact-list-item">
-                            <FontAwesomeIcon
-                            icon={faEnvelopeOpenText}
-                            className="icon contact-icon"
-                            size="2x"/>
+//     render() {
+//         return (
+const Contact = () =>
+    <div className="contact">
+        <div className="row">
+            <h2 className="heading">Contact</h2>
+        </div>
+        <div className="row">
+            <ul className="contact-list">
+                <li className="contact-list-item">
+                    <FontAwesomeIcon
+                        icon={faEnvelopeOpenText}
+                        className="icon contact-icon"
+                        size="2x" />
                                 Email me at <a href="mailto:amandaescaba@gmail.com">amandaescaba@gmail.com</a>
-                        </li>
-                        <li className="contact-list-item">
-                            <FontAwesomeIcon
-                            icon={faLinkedin}
-                            className="icon contact-icon"
-                            size="2x"/>
+                </li>
+                <li className="contact-list-item">
+                    <FontAwesomeIcon
+                        icon={faLinkedin}
+                        className="icon contact-icon"
+                        size="2x" />
                                 Connect with me on <a href="https://www.linkedin.com/in/aescaba/">LinkedIn</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        )
-    }
-}
+                </li>
+            </ul>
+        </div>
+    </div>
+//         )
+//     }
+// }
 
 export default Contact
