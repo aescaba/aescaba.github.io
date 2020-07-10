@@ -1,3 +1,9 @@
 .project-row {
     width: 100%;
+    margin-bottom: 125px;
+}
+
+.project-meta {
+    position: absolute;
+    bottom: 0;
 }

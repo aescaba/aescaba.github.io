@@ -9,7 +9,10 @@ const AACC = () =>
             <img src={Preview} className="project-img-preview img-fluid" alt="EDIT LATER"></img>
         </div>
         <div className="col">
-            <p>AACC description</p>
+            <div className="project-meta">
+                <h3 className="project-title">Asian American Community Conference Marketing</h3>
+                <p>AACC description</p>
+            </div>
         </div>
     </div>
 
