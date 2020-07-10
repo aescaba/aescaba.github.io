@@ -22,7 +22,7 @@ const About = () =>
                 <p>I'm currently seeking job opportunities in New York City!</p>
             </div>
             <div className="col about-col">
-                <img src={Headshot} className="img-fluid" alt="Photograph of Amanda from head to shoulders, smiling next to a lamppost at sunset" />
+                <img src={Headshot} className="img-fluid" id="about-img" alt="Photograph of Amanda from head to shoulders, smiling next to a lamppost at sunset" />
             </div>
         </div>
     </div>
