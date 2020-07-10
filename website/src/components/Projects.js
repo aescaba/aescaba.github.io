@@ -8,12 +8,12 @@ class Projects extends React.Component {
 
     render() {
         return (
-        <div className="container">
-        <h1>Projects</h1>
-        <p>
-            the projects will go here
+            <div className="container">
+                <h1>Projects</h1>
+                <p>
+                    the projects will go here
         </p>
-        </div>
+            </div>
         )
     }
 }

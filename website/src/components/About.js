@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './../css/About.css'
 
 import Headshot from './../assets/headshot-resized.jpg'

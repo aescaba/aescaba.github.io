@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSmileBeam } from '@fortawesome/free-regular-svg-icons'
