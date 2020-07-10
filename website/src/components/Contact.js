@@ -3,6 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
+import './../css/Contact.css'
+
+
 
 class Contact extends React.Component {
     constructor(props) {
@@ -12,19 +15,29 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <div className="container">
-                <h1>Contact</h1>
-                <ul>
-                    <li>
-                        <FontAwesomeIcon icon={faEnvelopeOpenText} />
-                        Email me at <a href="mailto:amandaescaba@gmail.com">amandaescaba@gmail.com</a>
-                    </li>
-                    <li>
-                        <FontAwesomeIcon icon={faLinkedin} />
-                        Connect with me on <a href="https://www.linkedin.com/in/aescaba/">LinkedIn</a>
-                    </li>
-                </ul>
-            </div >
+            <div className="contact">
+                <div className="row">
+                    <h2 className="heading">Contact</h2>
+                </div>
+                <div className="row">
+                    <ul className="contact-list">
+                        <li className="contact-list-item">
+                            <FontAwesomeIcon
+                            icon={faEnvelopeOpenText}
+                            className="icon contact-icon"
+                            size="2x"/>
+                                Email me at <a href="mailto:amandaescaba@gmail.com">amandaescaba@gmail.com</a>
+                        </li>
+                        <li className="contact-list-item">
+                            <FontAwesomeIcon
+                            icon={faLinkedin}
+                            className="icon contact-icon"
+                            size="2x"/>
+                                Connect with me on <a href="https://www.linkedin.com/in/aescaba/">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         )
     }
 }

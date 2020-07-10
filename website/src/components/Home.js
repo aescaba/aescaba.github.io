@@ -13,7 +13,7 @@ class Home extends React.Component {
         return (
             <div className="home">
                 <div className="row">
-                    <h1>Hello! <FontAwesomeIcon icon={faSmileBeam} /></h1>
+                    <h1>Hello! <FontAwesomeIcon icon={faSmileBeam} className="icon"/></h1>
                 </div>
                 <div className="row">
                     <p>I'm Amanda&mdash;a designer, developer, &amp; artist.</p>

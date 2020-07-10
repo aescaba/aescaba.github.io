@@ -9,7 +9,7 @@ class Projects extends React.Component {
     render() {
         return (
             <div className="container">
-                <h1>Projects</h1>
+                <h2 className="heading">Projects</h2>
                 <p>
                     the projects will go here
         </p>

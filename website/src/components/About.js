@@ -12,7 +12,7 @@ class About extends React.Component {
         return (
             <div className="about">
                 <div className="row">
-                    <h3 className="heading">About Me</h3>
+                    <h2 className="heading">About Me</h2>
                 </div>
                 <div className="row">
                     <div className="col">
