@@ -17,8 +17,14 @@ const About = () =>
         </div>
         <div className="row">
             <div className="col about-col">
-                <p>I grew up in the Hudson Valley, New York, and spent the last five years going to Northeastern University in Boston studying computer science and interaction design.</p>
-                <p>I'm interested in designing compelling, useful, accessible, and beautiful user-focused experiences. Outside of work, I like to find myself consuming or creating art and media&mdash;usually through drawing, painting, or making too many Spotify playlists.</p>
+                <p>I grew up in the Hudson Valley, New York, and spent the last five years going 
+                    to Northeastern University in Boston studying computer science and interaction design.</p>
+                <p>I like to design compelling, accessible, and user-centered experiences through different
+                     mediums. Thanks to my combined degree, I've taken on the roles of a front-end developer
+                      and UI/UX designer, and love positions that incorporate skills from both of these disciplines.</p> 
+                <p>Outside of work, I find some of my other passions lie in being engaged in Asian American communities, 
+                    drawing and painting, trying to be a foodie, making too many Spotify playlists, and
+                    getting distracted by dogs in public.</p>
                 <p>I'm currently seeking job opportunities in New York City!</p>
             </div>
             <div className="col about-col">

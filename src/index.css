@@ -35,3 +35,11 @@ a:hover {
   /* font-weight: bold; */
 }
 
+#dev-note {
+  color: #4C82C8;
+  padding-top: 10px;
+  /* font-style: italic; */
+  font-size: 1.1em;
+  text-align: center;
+  position: fixed;
+}

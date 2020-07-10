@@ -20,6 +20,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <Router>
+        <div><p id="dev-note">this site is still under development!</p></div>
     <App />
   </Router>,
   document.querySelector('#root')
