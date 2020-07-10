@@ -7,12 +7,20 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import Sidebar from './containers/Sidebar'
 import Main from './containers/Main'
 
+
+
 export default class App extends React.Component {
+  componentDidMount() {
+    document.title = 'Amanda Escaba';
+  }
+
   render() {
     return (
-      <div>
+      <div className="app-wrapper">
         <Sidebar />
-        <Main />
+        <div className="app-container container-fluid">
+          <div className="row row-main"><Main /></div>
+        </div>
       </div>
     )
 

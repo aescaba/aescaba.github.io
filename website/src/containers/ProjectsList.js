@@ -6,6 +6,8 @@ import Capstone from './../components/projects/Capstone'
 import AACC from './../components/projects/AACC'
 import Drawings from './../components/projects/Drawings'
 
+import './../css/ProjectsList.css'
+
 class ProjectsList extends React.Component {
     constructor(props) {
         super(props);

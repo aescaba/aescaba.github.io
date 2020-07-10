@@ -3,10 +3,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 
+import './../css/Sidebar.css'
+
 export default class Sidebar extends React.Component {
     render() {
         return (
-            <nav className="col-md-2 sidebar">
+            <nav className="col-sm-2 col-lg-2 sidebar">
                 <div className="sidebar-sticky">
                     <ul className="nav flex-column">
                         <li className="nav-item"><Link to="/">home</Link></li>

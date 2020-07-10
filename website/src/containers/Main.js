@@ -7,6 +7,8 @@ import About from './../components/About'
 import ProjectsList from './../containers/ProjectsList'
 import Contact from './../components/Contact'
 
+import './../css/Main.css'
+
 class Main extends React.Component {
     constructor(props) {
         super(props);
@@ -14,7 +16,7 @@ class Main extends React.Component {
 
     render() {
         return (
-            <div className="container main">
+            <div className="main col-md-9 col-lg-10">
                 <Route exact path="/" component={Home}/>
                 <Route path="/about" component={About} />
                 <Route exact path="/projects" component={ProjectsList} />

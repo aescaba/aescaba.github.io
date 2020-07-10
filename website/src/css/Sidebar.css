@@ -1,0 +1,12 @@
+.sidebar {
+    border: 1px dotted blue;
+    /* height: 100vh; */
+    float:left;
+}
+
+/* full height sidebar for big screens */
+@media (min-width: 768px) { 
+    .sidebar {
+        height:100vh;
+    }
+ }
