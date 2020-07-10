@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-// class Projects extends React.Component {
-//     constructor(props) {
-//         super(props);
-//     }
+class ProjectsList extends React.Component {
+    constructor(props) {
+        super(props);
+    }
 
-//     render() {
-//         return (
-const Projects = () =>
+    render() {
+        return (
+// const Projects = () =>
     <div className="projects">
         <div className="row">
             <h2 className="heading">Projects</h2>
@@ -17,8 +17,8 @@ const Projects = () =>
 
         </div>
     </div>
-//     )
-// }
-// }
+    )
+}
+}
 
-export default Projects
+export default ProjectsList

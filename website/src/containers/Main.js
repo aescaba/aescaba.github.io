@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 
 import Home from './../components/Home'
 import About from './../components/About'
-import Projects from './../components/Projects'
+import ProjectsList from './../containers/ProjectsList'
 import Contact from './../components/Contact'
 
 class Main extends React.Component {
@@ -17,7 +17,7 @@ class Main extends React.Component {
             <div className="container main">
                 <Route exact path="/" component={Home}/>
                 <Route path="/about" component={About} />
-                <Route exact path="/projects" component={Projects} />
+                <Route exact path="/projects" component={ProjectsList} />
                 <Route path="/contact" component={Contact} />
             </div>
         )
