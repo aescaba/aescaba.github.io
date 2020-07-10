@@ -1,6 +1,10 @@
 .sidebar {
-    border: 1px dotted blue;
+    /* border: 1px dotted blue; */
     float: left;
+    /* position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0; */
 }
 
 /* sidebar for big screens */

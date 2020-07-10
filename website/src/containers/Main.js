@@ -17,7 +17,7 @@ class Main extends React.Component {
     render() {
         return (
             <div className="main col-md-9 col-lg-10">
-                <Route exact path="/" component={Home}/>
+                <Route exact path="/" component={Home} />
                 <Route path="/about" component={About} />
                 <Route exact path="/projects" component={ProjectsList} />
                 <Route path="/contact" component={Contact} />
