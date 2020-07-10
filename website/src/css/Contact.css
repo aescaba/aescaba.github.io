@@ -6,3 +6,11 @@ ul {
 .contact-icon {
     margin-right: 10px;
 }
+
+.contact-list-item {
+    font-size: 1.1em;
+}
+
+.contact-list-item a:hover {
+    font-weight: bold;
+}

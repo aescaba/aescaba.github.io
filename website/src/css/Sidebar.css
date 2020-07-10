@@ -1,11 +1,9 @@
 .sidebar {
     /* border: 1px dotted blue; */
     float: left;
-    /* position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0; */
+    font-size: 1.75em;
 }
+
 
 /* sidebar for big screens */
 @media (min-width: 768px) { 
@@ -21,6 +19,17 @@
     li {
         padding-bottom: 20px;
     }
- }
 
+    .grow { 
+        transition: all .2s ease-in-out; 
+      }
+        
+    .grow:hover { 
+        transform: scale(1.15); 
+    }
+
+    .nav a:hover {
+        font-weight: normal;
+    }
+ }
 

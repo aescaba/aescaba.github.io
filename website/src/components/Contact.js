@@ -34,7 +34,7 @@ const Contact = () =>
                         icon={faLinkedin}
                         className="icon contact-icon"
                         size="2x" />
-                                Connect with me on <a href="https://www.linkedin.com/in/aescaba/">LinkedIn</a>
+                                Connect with me on <a href="https://www.linkedin.com/in/aescaba/" target="_blank">LinkedIn</a>
                 </li>
             </ul>
         </div>

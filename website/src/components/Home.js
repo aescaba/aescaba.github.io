@@ -1,6 +1,8 @@
 import React from 'react'
 // import { render } from '@testing-library/react';
 
+import './../css/Home.css'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSmileBeam } from '@fortawesome/free-regular-svg-icons'
 
@@ -16,7 +18,7 @@ const Home = () =>
         <div className="row">
             <h1>Hello! <FontAwesomeIcon icon={faSmileBeam} className="icon" /></h1>
         </div>
-        <div className="row">
+        <div className="row home-subtitle">
             <p>I'm Amanda&mdash;a designer, developer, &amp; artist.</p>
         </div>
     </div>
