@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Preview from './../../assets/placeholder-proj.jpg'
+import Preview from './../../../assets/placeholder-proj.jpg'
 
 
 const Capstoneprev = () =>
