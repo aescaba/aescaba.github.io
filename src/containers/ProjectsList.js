@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import MBTA from './../components/projects/MBTA'
-import Capstone from './../components/projects/Capstone'
-import AACC from './../components/projects/AACC'
-import Drawings from './../components/projects/Drawings'
+import MBTAprev from './../components/projects/MBTA/MBTAprev'
+import Capstoneprev from './../components/projects/Capstone/Capstoneprev'
+import AACCprev from './../components/projects/AACC/AACCprev'
+import Drawingsprev from './../components/projects/Drawings/Drawingsprev'
 
 import './../css/ProjectsList.css'
 
@@ -21,10 +21,10 @@ class ProjectsList extends React.Component {
             <h2 className="heading">Projects</h2>
         </div>
         <div className="row projects-list">
-            <MBTA />
-            <Capstone />
-            <AACC />
-            <Drawings />
+            <MBTAprev />
+            <Capstoneprev />
+            <AACCprev />
+            <Drawingsprev />
             {/* <div className="project-row row" id="mbta"><MBTA /></div>
             <div className="project-row row" id="capstone"><Capstone /></div>
             <div className="project-row row" id="aacc"><AACC /></div>

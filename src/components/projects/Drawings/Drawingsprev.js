@@ -3,7 +3,7 @@ import React from 'react'
 import Preview from './../../assets/placeholder-proj.jpg'
 
 
-const Drawings = () =>
+const Drawingsprev = () =>
     <div className="project-row row" id="drawings-listview">
         <div className="col">
             <img src={Preview} className="project-img-preview img-fluid" alt="EDIT LATER"></img>
@@ -16,4 +16,4 @@ const Drawings = () =>
         </div>
     </div>
 
-export default Drawings
+export default Drawingsprev

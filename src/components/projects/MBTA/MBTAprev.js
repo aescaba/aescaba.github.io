@@ -3,7 +3,7 @@ import React from 'react'
 import Preview from './../../assets/placeholder-proj.jpg'
 
 
-const MBTA = () =>
+const MBTAprev = () =>
     <div className="project-row row" id="mbta-listview">
         <div className="col">
             <img src={Preview} className="project-img-preview img-fluid" alt="EDIT LATER"></img>
@@ -20,4 +20,4 @@ const MBTA = () =>
         </div>
     </div>
 
-export default MBTA
+export default MBTAprev
