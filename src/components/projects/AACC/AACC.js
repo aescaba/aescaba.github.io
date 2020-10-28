@@ -1,6 +1,6 @@
 import React from 'react'
 
-// import Preview from './../../assets/placeholder-proj.jpg'
+import Preview from './../../../assets/placeholder-proj.jpg'
 
 
 const AACC = () =>
@@ -24,6 +24,13 @@ const AACC = () =>
                     to strive beyond stereotypes and misconceptions and embrace their Asian American identities 
                     in new ways.” To convey this theme, I researched marketing materials for other 
                     conferences/media with similar themes.</p>
+
+                <img src={Preview} className="project-img-preview img-fluid" alt="EDIT LATER"></img>
+
+                <p>I chose a color scheme centered around primary colors—I wanted something bold to represent 
+                    the breaking of barriers, then I built off this theme with asymmetrical alignment and a playful
+                    typeface. I created a system with the different versions of marketing materials needed, making
+                    sure the styling and elements were slightly varied but still consistent.</p>
             </div>
         </div>
     </div>
