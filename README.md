@@ -1,3 +1,5 @@
+## Initial version of React portfolio website, coded from scratch. Scrapped in December 2020 in favor of using a Gatsby starter.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
